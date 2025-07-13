@@ -6,24 +6,24 @@ const FeatureShowcase = () => {
 
   const features = [
     {
+      icon: Shield,
+      title: "Invisible Security That Protects",
+      description: "The safest luxury is the one you don't see."
+    },
+    {
       icon: Lightbulb,
-      title: "Mood Lighting by Voice or Scene",
-      description: "Effortless ambiance control that responds to your lifestyle"
+      title: "Mood-Shifting False Ceilings",
+      description: "Ceilings that don't just cover, they create emotion."
     },
     {
       icon: Wind,
-      title: "Climate & Shades Adapt to You",
-      description: "Automated comfort that learns your preferences throughout the day"
+      title: "Gesture-Responsive Wardrobes", 
+      description: "Walk in. It lights up. Slide your hand, it opens."
     },
     {
       icon: Volume2,
-      title: "Invisible Entertainment & Audio",
-      description: "Premium sound systems seamlessly integrated into your design"
-    },
-    {
-      icon: Shield,
-      title: "Secure, Smart Home Control from One Dashboard",
-      description: "Complete home management with enterprise-grade security"
+      title: "The Bed That Adjusts to You",
+      description: "Rest becomes a ritual, not just routine."
     }
   ];
 
@@ -32,7 +32,7 @@ const FeatureShowcase = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground mb-4">
-            Smart Living. Seamlessly Designed.
+            When Design Meets Intelligence
           </h2>
         </div>
         

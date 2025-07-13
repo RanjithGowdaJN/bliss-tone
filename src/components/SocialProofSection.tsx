@@ -4,12 +4,12 @@ import { Star, Quote } from 'lucide-react';
 const SocialProofSection = () => {
   const testimonials = [
     {
-      quote: "Bliss Tone transformed our entire development. The smart integration was seamless, and buyers immediately understood the value.",
+      quote: "The smart integration was seamless. Buyers immediately understood the value.",
       author: "Sarah Chen",
       role: "Developer, Premium Properties"
     },
     {
-      quote: "Every detail was planned perfectly. The homes feel luxurious today and will adapt beautifully to future technology.",
+      quote: "Every detail was planned perfectly. Luxury today, ready for tomorrow's tech.",
       author: "Michael Rodriguez", 
       role: "Homeowner, Villa Estates"
     }
@@ -27,7 +27,7 @@ const SocialProofSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-playfair font-bold text-foreground mb-4">
-            Join hundreds of discerning homeowners who trust Bliss Tone to craft intelligent, luxurious homes.
+            Ready for interiors that anticipate your needs?
           </h2>
           
           {/* Testimonials */}
@@ -66,7 +66,7 @@ const SocialProofSection = () => {
             size="lg" 
             className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-4 text-lg font-medium"
           >
-            Let's Begin Your Smart Interior Journey
+            Book Your Consultation
           </Button>
         </div>
       </div>
