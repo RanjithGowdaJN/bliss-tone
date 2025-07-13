@@ -44,19 +44,7 @@ const Navigation = () => {
               onClick={() => scrollToSection('about')}
               className="text-foreground hover:text-primary transition-colors"
             >
-              About
-            </button>
-            <button
-              onClick={() => scrollToSection('services')}
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              Services
-            </button>
-            <button
-              onClick={() => scrollToSection('portfolio')}
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              Projects
+              Why Bliss Tone
             </button>
             <button
               onClick={() => scrollToSection('contact')}
@@ -85,19 +73,7 @@ const Navigation = () => {
                 onClick={() => scrollToSection('about')}
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
-                About
-              </button>
-              <button
-                onClick={() => scrollToSection('services')}
-                className="text-left text-foreground hover:text-primary transition-colors"
-              >
-                Services
-              </button>
-              <button
-                onClick={() => scrollToSection('portfolio')}
-                className="text-left text-foreground hover:text-primary transition-colors"
-              >
-                Projects
+                Why Bliss Tone
               </button>
               <button
                 onClick={() => scrollToSection('contact')}

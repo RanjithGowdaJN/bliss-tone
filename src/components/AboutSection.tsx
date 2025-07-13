@@ -1,39 +1,43 @@
-import apartmentBedroom from '@/assets/apartment-bedroom.jpg';
-import villaDining from '@/assets/villa-dining.jpg';
+import { Sparkles, Cog, Building } from 'lucide-react';
 
 const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
-          <div className="fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-playfair font-semibold text-foreground mb-6">
-              About Us
-            </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              We design interiors that blend luxury with livability. Partnered with top real estate developers, we bring soulful character to every square foot.
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-3xl mx-auto mb-16">
+            <p className="text-2xl md:text-3xl font-playfair leading-relaxed text-foreground mb-8">
+              We don't just install interiors—we engineer spaces that evolve with you.
             </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Our expertise lies in creating timeless spaces that reflect sophistication while maintaining the warmth and comfort that makes a house a home. From concept to completion, we ensure every detail contributes to an elevated living experience.
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+              From villa-scale elegance to urban refinement, Bliss Tone ensures your home isn't just beautiful today, but ready for the tech of tomorrow.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed font-medium">
+              Every design, every material, every cable—planned in harmony.
             </p>
           </div>
 
-          {/* Right Images Grid */}
-          <div className="grid grid-cols-2 gap-4 fade-in">
-            <div className="overflow-hidden rounded-lg shadow-lg">
-              <img
-                src={apartmentBedroom}
-                alt="Luxury apartment bedroom design"
-                className="w-full h-64 object-cover hover-zoom"
-              />
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Sparkles className="h-8 w-8 text-gold" />
+              </div>
+              <h3 className="text-xl font-playfair font-semibold mb-2">Designed to Impress</h3>
+              <p className="text-muted-foreground">Luxury aesthetics that create emotional connections and lasting impressions</p>
             </div>
-            <div className="overflow-hidden rounded-lg shadow-lg mt-8">
-              <img
-                src={villaDining}
-                alt="Villa dining room interior"
-                className="w-full h-64 object-cover hover-zoom"
-              />
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Cog className="h-8 w-8 text-gold" />
+              </div>
+              <h3 className="text-xl font-playfair font-semibold mb-2">Engineered for the Future</h3>
+              <p className="text-muted-foreground">Smart technology seamlessly integrated from the ground up</p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Building className="h-8 w-8 text-gold" />
+              </div>
+              <h3 className="text-xl font-playfair font-semibold mb-2">Built With Builders in Mind</h3>
+              <p className="text-muted-foreground">Collaborative approach that ensures flawless project execution</p>
             </div>
           </div>
         </div>

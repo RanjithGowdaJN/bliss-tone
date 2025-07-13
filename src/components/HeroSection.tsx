@@ -24,20 +24,20 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <h1 className="text-5xl md:text-7xl font-playfair font-bold text-white mb-6 fade-in-up">
-          Bliss-Tone
+          Interiors That Think. Spaces That Feel.
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-3xl mx-auto fade-in-up">
-          Premium Interior Spaces Curated for Elegant Living
+          Luxury interiors curated with embedded smart technology—designed to evolve with you.
         </p>
         <Button
           onClick={scrollToContact}
           size="lg"
           className="bg-gold text-gold-foreground hover:bg-gold/90 transition-all duration-300 transform hover:scale-105 shadow-lg fade-in-up"
         >
-          Let's Connect
+          Get Started with Bliss Tone
         </Button>
         <p className="text-white/70 text-sm mt-8 fade-in">
-          Interior partners to leading villa & apartment builders
+          The chosen interior partners for villa and apartment builders who demand forward-thinking design
         </p>
       </div>
 
